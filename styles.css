@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #0b0f19;
+  color: #e5e7eb;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 40px;
+  background: rgba(10, 14, 25, 0.9);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.topbar nav a {
+  margin: 0 12px;
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topbar nav a:hover {
+  color: white;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #f59e0b;
+  color: black;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #d97706;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #111827, #0b0f19);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #9ca3af;
+}
+
+/* HERO BUTTONS */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  background: white;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  border: 1px solid #374151;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* FRAME */
+.frame iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  border-radius: 12px;
+  background: #111827;
+}
+
+/* ABOUT */
+.about {
+  padding: 40px;
+  color: #9ca3af;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  color: #6b7280;
+  font-size: 12px;
+}
